@@ -1,9 +1,50 @@
-html {
-  
-.raleway-<uniquifier> {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+  :root {
+  --bg: #000000;
+  --primary: #FFFFFF;
+  --acsent: #D23166;
+  --secondary: #FAFAFA; }
+  body{
+    color: var(--primary);
+    background-color: var(--bg);
+  }
+.hero__title {
+  font-family: "Alexandria";
+  font-size: 57px;
+  line-height: 94%;
+  letter-spacing: -7%;
 }
+.hero__title span {
+  color: var(--acsent);
+}
+.primary-text {
+font-family: "Manrope";
+font-size: 18px;
+line-height: 27px;
+color: var(--primary)
+}
+.about__text{
+  font-family: "Alexandria";
+  font-size: 57.33px;
+  color: var(--primary);
+  text-align: center;
+  line-height: 100%;
+}
+.about__text span{
+  color: rgba(255, 255, 255, 0.2);
+}
+.header{
+  height: 132px;
+  margin-inline: 96px;
+}
+.header-container{
+  display: flex;
+  justify-content: space-between;
+}
+.navigation-list{
+  list-style: none;
+  max-width: 507px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
 }
