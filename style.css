@@ -538,7 +538,7 @@ body {
   font-family: 'Manrope';
 }
 
-/* ================= NAVIGATION HOVER ================= */
+
 
 .header-nav-link {
   position: relative;
@@ -549,7 +549,6 @@ body {
   color: var(--accent);
 }
 
-/* underline animation */
 .header-nav-link::after {
   content: '';
   position: absolute;
@@ -568,27 +567,27 @@ body {
 }
 
 
-/* ================= PRODUCTS CARD HOVER ================= */
+
 
 .products-item {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border-radius: 20px;
 }
 
-/* hover эффект */
+
 .products-item:hover {
   transform: translateY(-12px);
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
 }
 
 
-/* чтобы тень выглядела красиво */
+
 .products-card {
   border-radius: 20px;
   transition: inherit;
 }
 
-/* (опционально) лёгкий эффект на кнопку */
+
 .products-button {
   transition: transform 0.2s ease, background-color 0.2s ease;
 }
